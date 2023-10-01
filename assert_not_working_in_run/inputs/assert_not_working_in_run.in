@@ -1,4 +1,9 @@
 // The program input for assert_not_working_in_run/src/main.leo
-[main]
-public a: u32 = 1u32;
+[assert_eq_not_working]
+a: u32 = 1u32;
+b: u32 = 2u32;
+
+
+[assert_neq_not_working]
+a: u32 = 2u32;
 b: u32 = 2u32;
