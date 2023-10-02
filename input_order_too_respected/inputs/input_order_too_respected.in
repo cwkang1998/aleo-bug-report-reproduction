@@ -1,0 +1,4 @@
+// The program input for input_order_too_respected/src/main.leo
+[main]
+b: u32 = 2u32;
+a: SomeStruct = SomeStruct { m1: 1u32 };
